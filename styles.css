@@ -319,51 +319,6 @@ h2 {
     line-height: 1.5rem;
 }
 
-/* ----------------------------------------------------------------------------------------------------- */
-
-.recomendation {
-    width: 100%;
-    max-width: 80vw;
-    margin: 35px auto;
-    margin-block-start: 25rem;
-    margin-block-end: 10rem;
-    
-}
-
-.recomendation-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Comfortaa", sans-serif;
-    font-size: 20px;
-    padding: 1rem;
-    border: 1px solid;
-    border-radius: 30px;
-}
-
-.h3-recomendation {
-    padding: 0;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-size: 3rem;
-}
-
-@media(max-width: 768px) {
-    .recomendation-container {
-        font-size: 16px;
-        padding: 1.5rem;
-    }
-
-    .h3-recoomendation {
-        font-size: 1.2em;
-    }
-}
- 
-.p-recomendation {
-    padding-top: 2.5rem;
-}
-
 /* -------------------------------------------------------------------- */
 
 .section-curriculo {

@@ -18,9 +18,7 @@ html, body {
     padding: 0;
 }
 
-.header-navigation, .nav-navigation {
-    overflow: visible;
-}
+
 
 
 @media screen and (max-width: 600px) {

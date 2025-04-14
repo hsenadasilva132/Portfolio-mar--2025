@@ -52,16 +52,6 @@ html, body {
     width: 100%;
 }
 
-.header-navigation {
-    min-height: 5.5em;
-    border-bottom: 5px solid #8B80F9;
-}
-
-.footer-contato {
-    min-height: 4rem;
-    border-top: 5px solid #8B80F9;
-}
-
 @media(max-width: 600px) {
     .header-navigation, .footer-contato {
         width: 100%;

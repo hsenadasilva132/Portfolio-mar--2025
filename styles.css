@@ -35,7 +35,6 @@ body {
     color: aliceblue;
     text-decoration: none;
     transition: color 0.5s;
-    white-space: nowrap;
 }
 
 .a-navigation:hover {

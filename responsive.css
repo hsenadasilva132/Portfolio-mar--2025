@@ -9,7 +9,11 @@ html, body {
 }
 
 .header-navigation, .footer-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
+    height: auto;
     margin: 0;
     padding: 0;
 }
@@ -28,6 +32,13 @@ html, body {
     justify-content: space-between;
 }
 
+.nav-navigation, .icones-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
 .footer-contato {
     width: 100%;
     padding: 20px;
@@ -41,8 +52,20 @@ html, body {
     width: 100%;
 }
 
+.header-navigation {
+    min-height: 5rem;
+    border-bottom: 5px solid #8B80F9;
+}
+
+.footer-contato {
+    min-height: 4rem;
+    border-top: 5px solid #8B80F9;
+}
+
 @media(max-width: 600px) {
     .header-navigation, .footer-contato {
         width: 100%;
+        flex-direction: column;
+        padding: 10px;
     }
 }

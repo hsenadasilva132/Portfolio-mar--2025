@@ -1,15 +1,47 @@
-* {
+/* * {
     box-sizing: border-box;
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* previne rolagem horizontal desnecessária */
 }
 
 .header-navigation, .footer-contato {
-    width: 100%;
+    width: 100vw;
     margin: 0;
     padding: 0;
 }
 
 
 @media screen and (max-width: 600px) {
+    .header-navigation, .footer-contato {
+        width: 100%;
+    }
+}
+
+.nav-navigation {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contato {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+}
+
+.header-navigation, .footer-contato {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+@media(max-width: 600px) {
     .header-navigation, .footer-contato {
         width: 100%;
     }

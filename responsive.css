@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-navigation, .footer-contato {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    .header-navigation, .footer-contato {
+        width: 100%;
+    }
+}

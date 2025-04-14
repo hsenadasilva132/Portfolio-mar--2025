@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+}
+
+body {
+    color: #EAEAEA;
+    background-color: #212738;
+    padding: 0;
+    margin: 0;
+}
+
+.header-navigation {
+    border-bottom: 5px solid #8B80F9;
+    text-align: center;
+    
+}
+
+.nav-navigation {
+    margin: 0;
+    height: 5.5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.nav-navigation a {
+    font-size: 19px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.a-navigation {
+    position: relative;
+    margin: 35px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.a-navigation:hover {
+    color: #8B80F9;
+}
+
+.a-navigation::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #8B80F9;
+    transition: width 0.5s;
+}
+
+.a-navigation:hover::after {
+    width: 100%;
+}
+
+.a-navigation::after {
+    transition: width 0.5s ease-out;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+
+#foto_perfil {
+    height: 270px;
+    border: 2px solid #8B80F9;
+    border-radius: 50%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main h1 {
+    color: #8B80F9;
+    box-sizing: border-box;
+    margin-block-end: 0.50em;
+    font-size: 3rem;    
+    font-family: "Francois One", sans-serif;
+    font-weight: 700;
+    font-style: normal;     
+}
+
+.sub-p {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.section-sobre {
+    padding: 6rem 2rem;
+}
+
+h2 {
+    display: block;
+    unicode-bidi: isolate;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-block-start: 0.70rem;
+    margin-block-end: 0.70rem;
+}
+
+.h2-sobre {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.sobre-conteudo {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 20px;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 30px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    transition: box-shadow 0.8s ease, transform 0.4s ease;
+}
+
+.sobre-conteudo:hover {
+    box-shadow: 0 0 60px 10px rgba(123, 3, 235, 0.2);
+}
+
+.div-logo {
+    text-align: center;
+}
+
+#logo_drugovich {
+    height: 10rem;
+    display: inline-block;
+    margin-block-end: 0.87em;
+    transition: transform 0.5s ease;
+    padding: 10px;
+    /* border: 2px solid;
+    border-radius: 100%; */
+}
+
+#logo_drugovich:hover {
+    transform: scale(1.2);
+}
+
+.h3-sobre {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-block-start: 10rem;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.card {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    padding: 38px;
+    background-color: #656B7D;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+    box-shadow: 15px 12px 0px rgba(117, 3, 247, 0.342);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(233, 233, 233, 0.938);
+    color: #000;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.card:hover .card-details {
+    opacity: 1;
+}
+
+.card-details h4 {
+    margin: 0 0 5px;
+    font-size: 1.1rem;
+}
+
+.card-details p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+.h2-projetos {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 35px;
+
+}
+
+.projeto-container {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.projeto-card {
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 45px; 
+    border: 1px solid #212738;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #656B7D;
+    transition: box-shadow 0.6s ease;
+}
+
+.projeto-card:hover {
+    /* transform: scale(1.1); */
+    box-shadow: 0px 12px 20px 11px rgba(101, 107, 125, 0.250);
+}
+
+.projeto-imagem {
+    height: auto;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.projeto-card:hover .projeto-imagem {
+    transform: scale(1.05);
+}
+
+.projeto-texto {
+    font-family: "Comfortaa", sans-serif;
+    padding: 16px;
+}
+
+@media(min-width: 768px) {
+    .projeto-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .projeto-card {
+        width: calc(33.33% - 32px);
+    }
+}
+
+@media(max-width: 480px) {
+    .projeto-card {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 544px) {
+    .projeto-container {
+        display: block;
+    }
+
+    .projeto-card {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}
+
+
+.projeto-titulo {
+    color: #EAEAEA;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.17em;
+    unicode-bidi: isolate;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin: 8px 0;
+}
+
+.projeto-p {
+    font-size: 1rem;
+    color: #EAEAEA;
+    line-height: 1.5rem;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+.recomendation {
+    width: 100%;
+    max-width: 80vw;
+    margin: 35px auto;
+    margin-block-start: 25rem;
+    margin-block-end: 10rem;
+    
+}
+
+.recomendation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 20px;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+.h3-recomendation {
+    padding: 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+@media(max-width: 768px) {
+    .recomendation-container {
+        font-size: 16px;
+        padding: 1.5rem;
+    }
+
+    .h3-recoomendation {
+        font-size: 1.2em;
+    }
+}
+ 
+.p-recomendation {
+    padding-top: 2.5rem;
+}
+
+/* -------------------------------------------------------------------- */
+
+.section-curriculo {
+    margin-block-start: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+    
+}
+
+
+
+.h5-curriculo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 45px;
+}
+
+.img-curriculo {
+    height: 150px;
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+.footer-contato {
+    padding: 20px;
+    border-top: 5px solid #8B80F9;
+    margin-block-start: 15rem;
+    background-color: #000;
+}
+
+.h5-contato {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #8b80f9;
+    font-weight: 800;
+    font-size: 2.8rem;
+    margin-bottom: 35px;
+    padding: 1em 0 0 0;
+}
+
+.icones-contato {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.img-contato {
+    transition: filter 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 0 rgba(249, 249, 249, 0);
+    height: 42px;
+    width: 42px;
+    padding: 0;
+    margin: 1em;
+    border-radius: 50%;
+}
+
+.img-contato:hover {
+    filter: brightness(0) invert(1);
+    box-shadow: 0 0 10px rgba(249, 249, 249, 0.7);
+}
+
+#copy {
+    color: #8B80F9;
+    font-size: 14px;
+    font-family: "Comfortaa", sans-serif;
+    padding: 3em 0 0.5em 0;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+@media(max-width: 600px) {
+    .icones-contato {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #copy {
+        font-size: 12px;
+    }
+}

@@ -54,3 +54,25 @@ html, body {
 
 /*  ------------------------------------------------------------------ */
 
+@media(min-width: 768px) {
+    .projeto-container {
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .projeto-card {
+        max-width: 320px;
+    }
+}
+
+@media(max-width: 768px) {
+    .projeto-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projeto-card {
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+}

@@ -243,8 +243,8 @@ h2 {
     margin-block-start: 2em;
     margin-block-end: 2em;
     width: 100%;
-    max-width: 480px;
-    margin: 0 45px; 
+    max-width: 400px;
+    margin: 16px; 
     border: 1px solid #212738;
     border-radius: 8px;
     overflow: hidden;

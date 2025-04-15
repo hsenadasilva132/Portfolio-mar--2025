@@ -65,7 +65,7 @@ html, body {
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 600px) {
     .projeto-container {
         flex-direction: column;
         align-items: center;

@@ -234,7 +234,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 32px;
+    /* gap: 32px; */
     padding: 16px;
     cursor: pointer;
 }
@@ -243,7 +243,7 @@ h2 {
     margin-block-start: 2em;
     margin-block-end: 2em;
     width: 100%;
-    max-width: 480px;
+    max-width: 400px;
     margin: 16px; 
     border: 1px solid #212738;
     border-radius: 8px;

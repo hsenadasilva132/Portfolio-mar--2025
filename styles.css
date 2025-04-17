@@ -364,8 +364,8 @@ h2 {
     color: #8b80f9;
     font-weight: 800;
     font-size: 2.8rem;
-    margin-bottom: 35px;
-    padding: 1em 0 0 0;
+    /* margin-bottom: 35px;
+    padding: 1em 0 0 0; */
 }
 
 .icones-contato {
@@ -391,6 +391,11 @@ h2 {
     box-shadow: 0 0 10px rgba(249, 249, 249, 0.7);
 }
 
+.ul-contato {
+    display: flex;
+    list-style-type: none;
+}
+
 #copy {
     color: #8B80F9;
     font-size: 14px;
@@ -402,7 +407,7 @@ h2 {
 
 @media(max-width: 600px) {
     .icones-contato {
-        flex-direction: row;
+        /* flex-direction: row; */
         gap: 10px;
     }
 

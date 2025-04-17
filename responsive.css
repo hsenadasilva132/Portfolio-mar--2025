@@ -76,3 +76,11 @@ html, body {
         margin-bottom: 16px;
     }
 }
+
+/* -------------------------------------------------------------------------- */
+
+@media(max-width: 600px) {
+    .section-curriculo {
+        margin-block-end: 3rem;
+    }
+}

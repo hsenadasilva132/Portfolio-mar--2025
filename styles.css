@@ -326,6 +326,7 @@ h2 {
 
 .section-curriculo {
     margin-block-start: 15rem;
+    margin-block-end: 19rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -354,7 +355,6 @@ h2 {
 .footer-contato {
     padding: 20px;
     border-top: 5px solid #8B80F9;
-    margin-block-start: 15rem;
     background-color: #000;
 }
 

@@ -81,6 +81,6 @@ html, body {
 
 @media(max-width: 600px) {
     .section-curriculo {
-        margin-block-end: 9rem;
+        margin-block-end: 15rem;
     }
 }

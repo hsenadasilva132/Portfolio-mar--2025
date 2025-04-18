@@ -50,6 +50,19 @@ html, body {
         flex-direction: column;
         /* padding: 10px; */
     }
+
+    .footer-contato {
+        padding: 15px;
+    }
+
+    .ul-contato {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    #copy {
+        font-size: 12px ;
+    }
 }
 
 /*  ------------------------------------------------------------------ */

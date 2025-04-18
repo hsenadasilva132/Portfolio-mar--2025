@@ -353,9 +353,15 @@ h2 {
 /* ---------------------------------------------------------------------- */
 
 .footer-contato {
+    width: 100%;
     padding: 20px;
     border-top: 5px solid #8B80F9;
     background-color: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .h5-contato {
@@ -382,7 +388,7 @@ h2 {
     height: 42px;
     width: 42px;
     padding: 0;
-    margin: 1em;
+    margin: 15px;
     border-radius: 50%;
 }
 
@@ -393,6 +399,10 @@ h2 {
 
 .ul-contato {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
     list-style-type: none;
 }
 
@@ -400,9 +410,9 @@ h2 {
     color: #8B80F9;
     font-size: 14px;
     font-family: "Comfortaa", sans-serif;
-    padding: 3em 0 0.5em 0;
+    padding: 1em 0;
     text-align: center;
-    margin: 20px 0 0 0;
+    margin: 0;
 }
 
 @media(max-width: 600px) {

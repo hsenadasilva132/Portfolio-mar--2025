@@ -159,6 +159,12 @@ h2 {
     margin-block-start: 10rem;
 }
 
+@media(max-width: 768px) {
+    .h3-sobre {
+        width: 90%;
+    }
+}
+
 .card-container {
     display: flex;
     gap: 20px;

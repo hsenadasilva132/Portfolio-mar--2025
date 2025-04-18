@@ -286,7 +286,7 @@ h2 {
     .projeto-card {
         width: 90%;
         max-width: 500px;
-        margin: 16px auto;
+        margin: 16px 5px;
     }
 }
 
@@ -302,8 +302,8 @@ h2 {
     }
 
     .projeto-card {
-        width: 100%;
-        margin-bottom: 16px;
+        width: 90%;
+        margin: 16px auto;
     }
 }
 

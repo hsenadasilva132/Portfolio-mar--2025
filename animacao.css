@@ -1,0 +1,22 @@
+/* Estado inicial */
+.element-hidden {
+    opacity: 0;
+    transform: translateX(10px); /* Elemento inicia deslocado */
+}
+
+/* Adiciona animação quando visível */
+.element-visible {
+    animation: fadeIn 1.5s ease forwards; /* Animação leva 3 segundos */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(50px); /* Continua deslocado */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* Volta à posição original */
+    }
+}
+

@@ -160,6 +160,7 @@
 
 
     <section class="section-curriculo">
+      <div id="particles-js"></div>
       <h5 class="h5-curriculo">Baixe o meu curriculo</h5>
       <a href="./curriculo/Henrique_SenaDaSilva_Currículo.pdf" download>
          <img class="img-curriculo" src="./Icones/form.png" alt="curriculo">
@@ -183,5 +184,18 @@
     </footer> 
 
 <script src="./script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    particlesJS("particles-js", {
+        particles: {
+            number: { value: 80 }, // Quantidade de partículas
+            size: { value: 1.5 }, // Tamanho pequeno como estrelas
+            color: { value: "#ffffff" }, // Branco para parecer pontos luminosos
+            opacity: { value: 0.6 },
+            move: { speed: 1.2 },
+            line_linked: { enable: false } // Sem conexões entre partículas
+        }
+    });
+</script>
 </body>
 </html>

@@ -12,7 +12,7 @@ links.forEach(link => {
         //Rolamento suave
         targetSection.scrollIntoView({
             behavior: 'smooth', //define o comportamento suave 
-            block: 'start'
+            block: 'end'
         });
     });
 });

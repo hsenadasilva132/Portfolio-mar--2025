@@ -43,3 +43,19 @@ window.addEventListener('scroll', handleScroll);
 
 //Para garantir que elementos já visiveis ao carregar sejam exibidos 
 window.addEventListener('load', handleScroll);
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const items = document.querySelectorAll(".timeline-item");
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if(entry.isIntersecting) {
+                entry.target.classList.add("visible");
+            }
+        });
+    }, {threshold: 0.5});
+
+    items.forEach(item => observer.observe(item));
+});

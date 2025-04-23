@@ -16,6 +16,7 @@ html, body {
 section {
     padding: 100px 20px;
     margin: 50px 0;
+    scroll-margin-top: 70px; /* Ajusta o ponto de ancoragem */
 }
 
 #particles-js {
